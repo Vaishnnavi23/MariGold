@@ -1,0 +1,12 @@
+pluginManagement { repositories { google(); mavenCentral(); gradlePluginPortal() } }
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        // TODO: add your SDK's maven repository here, e.g.
+        // maven { url "https://maven.your-sdk-vendor.com/releases" }
+    }
+}
+rootProject.name = "MarigoldBank"
+include ':app'
